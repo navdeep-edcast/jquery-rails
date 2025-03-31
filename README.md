@@ -29,28 +29,7 @@ Add
 gem 'jquery-rails'
 ```
 to your Gemfile.
-
-The jquery and jquery-ujs files will be added to the asset pipeline and available for you to use. If they're not already in `app/assets/javascripts/application.js` by default, add these lines:
-
-```js
-//= require jquery
-//= require jquery_ujs
-```
-
-If you are running Rails 5.1 and up, and if you have included `//= require rails-ujs`, then `jquery_ujs` is not needed anymore. You can just add:
-
-```js
-//= require jquery
-```
-
-If you want to use jQuery 2, you can require `jquery2` instead:
-
-```js
-//= require jquery2
-//= require jquery_ujs
-```
-
-And if you want to use jQuery 3, you can require `jquery3`:
+if you want to use jQuery 3, you can require `jquery3`:
 
 ```js
 //= require jquery3
